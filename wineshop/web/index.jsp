@@ -54,9 +54,6 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="hero-text">
-                    <h1>豪华酒店</h1>
-                    <p>我们酒店是当地最好的酒店，希望大家都来住宿.....</p>
-                    <a href="#" class="primary-btn">现在</a>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
@@ -88,68 +85,7 @@
 <!-- Hero Section End -->
 
 <!-- Services Section End -->
-<section class="services-section spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <span>我们的服务</span>
-                    <h2>发现我们的服务</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-sm-6">
-                <div class="service-item">
-                    <i class="flaticon-036-parking"></i>
-                    <h4>旅行计划</h4>
-                    <p><strong>我的同僚们都不愿意坐在我的位子上，因为我的精英们都是临时的
-                        劳工和多洛尔麦格纳。</strong></p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="service-item">
-                    <i class="flaticon-033-dinner"></i>
-                    <h4>宴会服务处</h4>
-                    <p>我的同僚们都不愿意坐在我的位子上，因为我的精英们都是临时的
-                        劳工和多洛尔麦格纳。</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="service-item">
-                    <i class="flaticon-026-bed"></i>
-                    <h4>当临时保姆</h4>
-                    <p>我的同僚们都不愿意坐在我的位子上，因为我的精英们都是临时的
-                        劳工和多洛尔麦格纳。.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="service-item">
-                    <i class="flaticon-024-towel"></i>
-                    <h4>洗衣店</h4>
-                    <p>我的同僚们都不愿意坐在我的位子上，因为我的精英们都是临时的
-                        劳工和多洛尔麦格纳。.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="service-item">
-                    <i class="flaticon-044-clock-1"></i>
-                    <h4>雇用司机</h4>
-                    <p>我的同僚们都不愿意坐在我的位子上，因为我的精英们都是临时的
-                        劳工和多洛尔麦格纳。</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="service-item">
-                    <i class="flaticon-012-cocktail"></i>
-                    <h4>酒和酒吧</h4>
-                    <p>我的同僚们都不愿意坐在我的位子上，因为我的精英们都是临时的
-                        劳工和多洛尔麦格纳。</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!-- Services Section End -->
 
 <!-- Home Room Section Begin -->
@@ -185,7 +121,6 @@
                     </div>
                 </div>
                 </c:forEach>
-
 
             </div>
         </div>

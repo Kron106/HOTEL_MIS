@@ -17,8 +17,6 @@
                             <ul>
                                 <li ><a href="indexServlet">首页</a></li>
                                 <li><a href="reserveWebServlet">在线订房</a></li>
-                                <li><a href="./aboutUs.jsp">关于我们</a></li>
-                                <li><a href="./contact.jsp">联系方式</a></li>
                                 <li><a href="./admin/index.jsp">系统管理</a></li>
                             </ul>
                         </nav>

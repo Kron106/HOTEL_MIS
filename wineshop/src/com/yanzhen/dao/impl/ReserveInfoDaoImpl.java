@@ -12,7 +12,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReserveInfoDaoImpl implements ReserveInfoDao {
+public class  ReserveInfoDaoImpl implements ReserveInfoDao {
     DbUtils utils=new DbUtils();
     @Override
     public List<ReserveInfo> queryList(int startPage, int limit, String content) throws SQLException {
