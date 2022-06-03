@@ -69,7 +69,7 @@
                     <img src="img/1.png" width="430px" height="270px" alt="">
                     <div class="ri-text">
                         <h4>${room.type_name}</h4>
-                        <h3>${room.price}$<span>/每晚</span></h3>
+                        <h3>￥${room.price}<span>/每晚</span></h3>
                         <table>
                             <tbody>
                             <tr>

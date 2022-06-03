@@ -5,11 +5,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
-                    <div class="logo">
-                        <a href="./index.html">
-                            <img src="img/logo.png" alt="">
-                        </a>
-                    </div>
+<%--                    <div class="logo">--%>
+<%--                        <a href="./index.html">--%>
+<%--                            <img src="img/logo.png" alt="">--%>
+<%--                        </a>--%>
+<%--                    </div>--%>
                 </div>
                 <div class="col-lg-10">
                     <div class="nav-menu">

@@ -93,7 +93,6 @@
     <div class="container-fluid">
         <div class="hp-room-items">
             <div class="row">
-
                 <c:forEach items="${list}" var="room">
                 <div class="col-lg-3 col-md-6">
                     <div class="hp-room-item set-bg" data-setbg="<%=basePath%>${room.img}">

@@ -62,7 +62,7 @@
                                  <a href="#">现在预订</a>
                              </div>--%>
                         </div>
-                        <h2>${info.price}$<span>/每晚</span></h2>
+                        <h2>￥${info.price}<span>/每晚</span></h2>
                         <table>
                             <tbody>
                             <tr>

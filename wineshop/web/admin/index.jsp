@@ -114,24 +114,6 @@
                     </li >
                 </ul>
             </li>
-
-            <li>
-                <a href="javascript:;">
-                    <i class="iconfont">&#xe6ce;</i>
-                    <cite>统计分析</cite>
-                    <i class="iconfont nav_right">&#xe697;</i>
-                </a>
-                <ul class="sub-menu">
-                    <li>
-                        <a _href="../roomServlet?flag=tongji">
-                            <i class="iconfont">&#xe6a7;</i>
-                            <cite>房间类型统计</cite>
-                        </a>
-                    </li >
-
-                </ul>
-            </li>
-
         </ul>
     </div>
 </div>
