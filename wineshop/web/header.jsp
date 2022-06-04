@@ -15,7 +15,7 @@
                     <div class="nav-menu">
                         <nav class="mainmenu">
                             <ul>
-                                <li ><a href="indexServlet">首页</a></li>
+                                <li ><a href="index.jsp">首页</a></li>
                                 <li><a href="reserveWebServlet">在线订房</a></li>
                                 <li><a href="./admin/index.jsp">系统管理</a></li>
                             </ul>
