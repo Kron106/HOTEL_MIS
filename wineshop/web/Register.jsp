@@ -1,4 +1,10 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@page language="java" contentType="text/html; charset=utf-8"  pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+<%
+    String path=request.getContextPath();
+    String basePath=request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+    String basePath2=request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort();
+%>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
@@ -42,5 +48,54 @@
 <script src="assets/js/supersized.3.2.7.min.js"></script>
 <script src="assets/js/suersized-init-register.js"></script>
 <script src="assets/js/scripts.js"></script>
+<script>
+    layui.use(['form','layer'], function(){
+        $ = layui.jquery;
+        var form = layui.form
+            ,layer = layui.layer;
+
+
+
+        //监听提交
+        form.on('submit(add)', function(data){
+            /*
+               1、获取输入框的值信息
+               2、通过ajax请求向后端发送请求
+               3、根据响应反馈信息提示，并刷新主页
+             */
+            var data=data.field;
+
+            debugger
+            //
+            if(data.sex=='ON'){
+                data.sex="女";
+            }else{
+                data.sex="男";
+            }
+            debugger
+            $.ajax({
+                url:"<%=basePath%>userServlet?flag=insert",
+                type:"post",
+                data:data,
+                success:function(result){
+                    if(result.code==0){
+                        layer.alert("增加成功", {icon: 6},function () {
+                            //关闭当前frame
+                            x_admin_close();
+                            // 可以对父窗口进行刷新
+                            x_admin_father_reload();
+                        });
+                    }else{
+                        layer.msg("不 好意思，添加失败了...")
+                    }
+                }
+            })
+            return false;
+        });
+
+
+    });
+</script>
 </html>
+
 
